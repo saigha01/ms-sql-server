@@ -49,6 +49,12 @@ replicaset.apps/mssql-latest-deploy-6745ffcf8b   1         1         1       9m4
 ```
 
 
+## To remove:
+``` bash 
+helm uninstall mssql-latest-deploy 
+```
+
+
 ## Connect to SQL Server
 
 Note: Please make sure you have secured your SQL Server password according to your needs.
